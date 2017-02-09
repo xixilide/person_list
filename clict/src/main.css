@@ -1,0 +1,17 @@
+body{
+  -webkit-font-smoothing: antialiased;
+
+}
+.content-warp{
+  height: 100vh;
+  display: flex;
+  /*cursor: pointer;*/
+  flex-direction: column;
+  text-decoration: line-through;
+}
+@media (min-width:760px) {
+  .content-warp{
+    flex-direction: row;
+  }
+
+}
